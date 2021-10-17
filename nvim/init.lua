@@ -1,0 +1,7 @@
+require('plugins')
+require('options')
+require('treesitter-config')
+-- decorate status line or (lualine)
+require('lualine-config')
+require('bufferline-config')
+vim.cmd('colorscheme nord')
