@@ -73,6 +73,22 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/apichart/.local/share/nvim/site/pack/packer/start/bufferline.nvim"
   },
+  ["cmp-buffer"] = {
+    loaded = true,
+    path = "/home/apichart/.local/share/nvim/site/pack/packer/start/cmp-buffer"
+  },
+  ["cmp-nvim-lsp"] = {
+    loaded = true,
+    path = "/home/apichart/.local/share/nvim/site/pack/packer/start/cmp-nvim-lsp"
+  },
+  ["cmp-vsnip"] = {
+    loaded = true,
+    path = "/home/apichart/.local/share/nvim/site/pack/packer/start/cmp-vsnip"
+  },
+  ["lspkind-nvim"] = {
+    loaded = true,
+    path = "/home/apichart/.local/share/nvim/site/pack/packer/start/lspkind-nvim"
+  },
   ["lualine.nvim"] = {
     loaded = true,
     path = "/home/apichart/.local/share/nvim/site/pack/packer/start/lualine.nvim"
@@ -84,6 +100,14 @@ _G.packer_plugins = {
   ["nvim-autopairs"] = {
     loaded = true,
     path = "/home/apichart/.local/share/nvim/site/pack/packer/start/nvim-autopairs"
+  },
+  ["nvim-cmp"] = {
+    loaded = true,
+    path = "/home/apichart/.local/share/nvim/site/pack/packer/start/nvim-cmp"
+  },
+  ["nvim-lspconfig"] = {
+    loaded = true,
+    path = "/home/apichart/.local/share/nvim/site/pack/packer/start/nvim-lspconfig"
   },
   ["nvim-tree.lua"] = {
     loaded = true,
@@ -108,6 +132,18 @@ _G.packer_plugins = {
   ["packer.nvim"] = {
     loaded = true,
     path = "/home/apichart/.local/share/nvim/site/pack/packer/start/packer.nvim"
+  },
+  ["plenary.nvim"] = {
+    loaded = true,
+    path = "/home/apichart/.local/share/nvim/site/pack/packer/start/plenary.nvim"
+  },
+  ["telescope.nvim"] = {
+    loaded = true,
+    path = "/home/apichart/.local/share/nvim/site/pack/packer/start/telescope.nvim"
+  },
+  ["vim-vsnip"] = {
+    loaded = true,
+    path = "/home/apichart/.local/share/nvim/site/pack/packer/start/vim-vsnip"
   },
   ["which-key.nvim"] = {
     loaded = true,

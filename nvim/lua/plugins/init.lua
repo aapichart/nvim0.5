@@ -19,5 +19,15 @@ return require('packer').startup(function()
   use {'kyazdani42/nvim-tree.lua', requires = 'kyazdani42/nvim-web-devicons'}
   -- Use this plugin for helping us know which keys are mapping
   use {'folke/which-key.nvim'}
+  -- Telescope is used like an extensible fuzzy finder
+  use {'nvim-telescope/telescope.nvim', requires = 'nvim-lua/plenary.nvim' }
+  -- Plugin for code completion
+  use 'neovim/nvim-lspconfig'
+  use 'hrsh7th/cmp-nvim-lsp'
+  use 'hrsh7th/cmp-buffer'
+  use 'hrsh7th/nvim-cmp'
+  use 'hrsh7th/cmp-vsnip'
+  use 'hrsh7th/vim-vsnip'
+  use 'onsails/lspkind-nvim'
 end)
 
