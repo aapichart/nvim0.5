@@ -1,3 +1,11 @@
+" Install .vim  plugins
+source $HOME/.config/nvim/lua/plugins.vim
+" Setup key mapping for .vim plugins "
+source $HOME/.config/nvim/keys/mappings.vim
+" Setup .vim plugins config "
+source $HOME/.config/nvim/plug-config/vimwiki.vim
+
+lua << EOF
 require('plugins')
 require('options')
 require('keysbinding')
@@ -13,5 +21,6 @@ require('whichkey-config')
 -- This is a good utilities like fzf
 require('telescope-config')
 -- Code Completion 
-require('nvim-cmp-config')
+require('lsp')
 vim.cmd('colorscheme nord')
+EOF

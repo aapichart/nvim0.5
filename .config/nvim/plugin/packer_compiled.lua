@@ -141,6 +141,18 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/apichart/.local/share/nvim/site/pack/packer/start/telescope.nvim"
   },
+  ["vim-lsp"] = {
+    loaded = true,
+    path = "/home/apichart/.local/share/nvim/site/pack/packer/start/vim-lsp"
+  },
+  ["vim-lsp-settings"] = {
+    loaded = true,
+    path = "/home/apichart/.local/share/nvim/site/pack/packer/start/vim-lsp-settings"
+  },
+  ["vim-slime"] = {
+    loaded = true,
+    path = "/home/apichart/.local/share/nvim/site/pack/packer/start/vim-slime"
+  },
   ["vim-vsnip"] = {
     loaded = true,
     path = "/home/apichart/.local/share/nvim/site/pack/packer/start/vim-vsnip"
