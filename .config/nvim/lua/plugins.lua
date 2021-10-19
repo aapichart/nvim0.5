@@ -38,6 +38,7 @@ return require('packer').startup(function()
   -- Use this plugin for helping us know which keys are mapping
   use {'folke/which-key.nvim'}
   -- Telescope is used like an extensible fuzzy finder
+  use {'nvim-lua/popup.nvim'}
   use {'nvim-telescope/telescope.nvim', requires = 'nvim-lua/plenary.nvim' }
   -- Plugin for code completion and language servers
   use 'prabirshrestha/vim-lsp'
@@ -50,6 +51,8 @@ return require('packer').startup(function()
   use 'hrsh7th/cmp-vsnip'
   use 'hrsh7th/vim-vsnip'
   use 'onsails/lspkind-nvim'
+  use {'kabouzeid/nvim-lspinstall'}
+  use 'glepnir/lspsaga.nvim'
   -- Plugin for send mark string between each pane or window
   use 'jpalardy/vim-slime'
   

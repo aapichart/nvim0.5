@@ -22,5 +22,6 @@ require('whichkey-config')
 require('telescope-config')
 -- Code Completion 
 require('lsp')
+require('lspsaga-config')
 vim.cmd('colorscheme nord')
 EOF
