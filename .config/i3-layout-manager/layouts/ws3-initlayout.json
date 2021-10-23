@@ -1,0 +1,94 @@
+[
+  {
+    "border": "pixel",
+    "floating": "auto_off",
+    "fullscreen_mode": 0,
+    "layout": "splitv",
+    "marks": [],
+    "percent": 0.5,
+    "type": "con",
+    "nodes": [
+      {
+        "border": "pixel",
+        "floating": "auto_off",
+        "layout": "splith",
+        "marks": [],
+        "percent": 0.663053722902922,
+        "type": "con",
+        "nodes": [
+          {
+            "border": "pixel",
+            "current_border_width": 1,
+            "floating": "auto_off",
+            "geometry": {
+              "height": 429,
+              "width": 656,
+              "x": 0,
+              "y": 0
+            },
+            "marks": [],
+            "name": "layout_command",
+            "percent": 0.6359375,
+            "swallows": [
+              {
+                "class": "^kitty$"
+              }
+            ],
+            "type": "con"
+          },
+          {
+            "border": "pixel",
+            "current_border_width": 1,
+            "floating": "auto_off",
+            "geometry": {
+              "height": 429,
+              "width": 656,
+              "x": 0,
+              "y": 0
+            },
+            "marks": [],
+            "name": "Web",
+            "percent": 0.3640625,
+            "swallows": [
+              {
+                "class": "^Chromium$"
+              }
+            ],
+            "type": "con"
+          }
+        ]
+      },
+      {
+        "border": "pixel",
+        "floating": "auto_off",
+        "layout": "splith",
+        "marks": [],
+        "percent": 0.336946277097078,
+        "type": "con",
+        "nodes": [
+          {
+            "border": "pixel",
+            "floating": "auto_off",
+            "layout": "splith",
+            "marks": [],
+            "percent": 0.5,
+            "type": "con",
+            "nodes": [
+              {
+                "marks": [],
+                "name": "layout_command",
+                "percent": 1.0,
+                "swallows": [
+                  {
+                    "class": "^kitty$"
+                  }
+                ],
+                "type": "con"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]
